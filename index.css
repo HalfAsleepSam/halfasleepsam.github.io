@@ -1,3 +1,53 @@
-.button {
-    min-height: 100px;
+
+a {
+    text-decoration: none;
+}
+
+.mainBody {
+    position: fixed;
+    right: 43.2%;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.048);
+}
+
+.linksDiv {
+    background-color: rgba(0, 0, 0, 0.068);
+    display: inline-block;
+    border-radius: 10px;
+    position: fixed;
+    right: 70px;
+    margin-top: 35;
+    scale: 2;
+
+}
+
+.subButton {
+    background-color: rgb(255, 39, 39);
+    color: aliceblue;
+    border: none;
+    border-color: rgb(46, 3, 3);
+    border-radius: 10px;
+    font-size: large;
+    min-height: 40;
+    min-width: 80;
+    display: block;
+    margin-bottom: 10;
+}
+
+.subButton:hover {
+    background-color: rgba(255, 49, 49, 0.918);
+}
+
+.discButton {
+    background-color: rgb(120, 64, 177);
+    border-radius: 10px;
+    border-style: none;
+    min-height: 40;
+    min-width: 80;
+    color: white;
+    font-size: large;
+}
+
+.discButton:hover {
+    background-color: rgba(120, 64, 177, 0.918);
 }
