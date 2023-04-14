@@ -40,7 +40,7 @@ body {
 }
 
 .card {
-    background-image: linear-gradient(to left,#8c00ff, #00e1ff);
+    background-image: linear-gradient(to left,#db7757, #e285a8);
     border: 1em;
     border-radius: 1rem;
     animation: GradientLoop 1s ease infinite;
