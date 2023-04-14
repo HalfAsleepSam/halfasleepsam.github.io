@@ -40,11 +40,21 @@ body {
 }
 
 .card {
-    background-image: linear-gradient(to left,#db7757, #e285a8);
+    background-image: linear-gradient(to bottom,#a82f7a, #431541);
     border: 1em;
     border-radius: 1rem;
-    animation: GradientLoop 1s ease infinite;
+    min-height: 500px;
+    max-width: 500;
 
+}
+
+.navBar {
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+    border-bottom-width: 8px;
+    border-bottom-style: solid;
+    border-bottom-color: antiquewhite;
+    background-image: linear-gradient(to left,#db7757, #e285a8);
 }
 
 .Sam {
@@ -67,7 +77,8 @@ h1, h2, h3, a, span, button, img, div, p {
 }
 
 p {
-    color: rgba(240, 248, 255, 0);
+    margin: 5px;
+    color: rgb(240, 248, 255);
 }
 
 img {
