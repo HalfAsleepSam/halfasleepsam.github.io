@@ -19,8 +19,14 @@
     100%{background-position:0% 50%}
 }
 
+svg {
+    animation: infinite;
+    animation-duration: 1s;
+}
 
 body {
+    background-image: url(imgs/coolasssvg.svg);
+    background-size: cover;
     display: flex;
     justify-content: center;
     justify-items: center;
