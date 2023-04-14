@@ -63,6 +63,9 @@ body {
     max-width: 5rem;
 }
 .SamButton {
+
+
+
     border-radius: 10rem;
     background-color: antiquewhite;
     border-radius: 1.;
@@ -87,6 +90,13 @@ img {
 }
 
 button {
+
+    -webkit-user-select: none; /* Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
+
+
     min-height: 5vh;
     border: none;
     background-color: #0000;
