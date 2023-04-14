@@ -1,53 +1,83 @@
 
-a {
+@media (prefers-color-scheme: dark) {
+    /* Dark theme styles go here */
+    body {
+        background-color: rgb(27, 21, 39);
+    }
+    .buttImg {
+        filter: invert();
+    }
+}
+  
+  @media (prefers-color-scheme: light) {
+    /* Light theme styles go here */
+}
+
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+
+body {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+.CardContainer {
+    margin-top: 5vh;
+    background-color: antiquewhite;
+    border-radius: 1.5rem;
+    padding: .5rem;
+}
+
+.card {
+    background-image: linear-gradient(to left,#8c00ff, #00e1ff);
+    border: 1em;
+    border-radius: 1rem;
+    animation: GradientLoop 1s ease infinite;
+
+}
+
+.Sam {
+    max-height: 5rem;
+    max-width: 5rem;
+}
+.SamButton {
+    border-radius: 10rem;
+    background-color: antiquewhite;
+    border-radius: 1.;
+    position: relative;
+    padding: 9;
+    right: -110;
+}
+
+h1, h2, h3, a, span, button, img, div, p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 1000;
     text-decoration: none;
 }
 
-.mainBody {
-    position: fixed;
-    right: 43.2%;
-    display: inline-block;
-    background-color: rgba(0, 0, 0, 0.048);
+p {
+    color: rgba(240, 248, 255, 0);
 }
 
-.linksDiv {
-    background-color: rgba(0, 0, 0, 0.068);
-    display: inline-block;
-    border-radius: 10px;
-    position: fixed;
-    right: 70px;
-    margin-top: 65;
-    scale: 2;
-
+img {
+    border-radius: 1rem;
 }
 
-.subButton {
-    background-color: rgb(255, 39, 39);
-    color: aliceblue;
+button {
+    min-height: 5vh;
     border: none;
-    border-color: rgb(46, 3, 3);
-    border-radius: 10px;
-    font-size: large;
-    min-height: 40;
-    min-width: 80;
-    display: block;
-    margin-bottom: 10;
+    background-color: #0000;
+    cursor: pointer;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
-.subButton:hover {
-    background-color: rgba(255, 49, 49, 0.918);
-}
-
-.discButton {
-    background-color: rgb(120, 64, 177);
-    border-radius: 10px;
-    border-style: none;
-    min-height: 40;
-    min-width: 80;
-    color: white;
-    font-size: large;
-}
-
-.discButton:hover {
-    background-color: rgba(120, 64, 177, 0.918);
+.buttImg {
+    min-height: 50px;
 }
