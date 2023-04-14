@@ -33,7 +33,8 @@ body {
 }
 
 .CardContainer {
-    margin-top: 10vh;
+    margin-top: 18vh;
+    scale: 1.2;
     background-color: antiquewhite;
     border-radius: 1.5rem;
     padding: .5rem;
